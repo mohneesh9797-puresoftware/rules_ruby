@@ -3,7 +3,9 @@ dist: bionic
 sudo: false
 language: java
 jdk: openjdk11
-
+arch:
+   - amd64
+   - arm64
 #branches:
 #  only:
 #  - master
